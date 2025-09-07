@@ -1,0 +1,19 @@
+{
+  // Usa o Biome como formatador padrão
+  "editor.defaultFormatter": "biomejs.biome",
+
+  // Formatar ao salvar
+  "editor.formatOnSave": true,
+
+  // Indentação (Biome já cuida disso, mas deixo explícito)
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+
+  // Corrigir problemas automaticamente ao salvar (se o Biome estiver configurado para lint)
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always"
+  },
+
+  // Habilitar suporte ao TypeScript no workspace
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
